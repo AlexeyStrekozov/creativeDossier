@@ -38,7 +38,6 @@ nav {
   position: relative;
   width: 100vw;
   height: 70vh;
-  background-image: url(../img/video-bk.jpeg);
   background-position: center;
 }
 .banner-wrap {
@@ -92,6 +91,12 @@ nav {
 .main-work-video {
   padding: 144px;
 }
+.main-work {
+  background-image: url(../img/vidobk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .slick-arrow {
   display: block;
   background-color: #ebe0f1;
@@ -102,4 +107,57 @@ nav {
   cursor: pointer;
   font-size: 18px;
   font-weight: 800;
+  transition: 0.4s;
+}
+.slick-arrow:hover {
+  box-shadow: inset 0 0 0 3px #9e82ad;
+}
+footer {
+  padding: 12px;
+  background-color: #f9c7c8;
+  text-shadow: black 0px 2px 2px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+footer > .row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-soc > a > img {
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+audio {
+  width: 100%;
+}
+.textSl {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 10px 0;
+}
+.textSl p {
+  padding: 5px 23px;
+}
+.textSl h2 {
+  text-transform: uppercase;
+  padding: 5px 23px;
+}
+.textSl ul  {
+  list-style: none;
+}
+.textSl ul li {
+  padding: 5px 23px;
+}
+.main-work-sl img {
+  width: 100%;
+}
+.textSLL {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
 }

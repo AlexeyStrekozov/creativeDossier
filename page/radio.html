@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Радио</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <li><a href="/creativeDossier/index.html">Главная</a></li>
+        <li><a href="/creativeDossier/page/video.html">Видео</a></li>
+        <li><a href="/creativeDossier/page/text.html">Тексты</a></li>
+        <li><a href="/creativeDossier/page/radio.html">Радио</a></li>
+        <li><a href="/creativeDossier/page/all.html">Разное</a></li>
+      </ul>
+    </nav>
+    <div class="banner" style="  background-image: url(../assets/img/radio.jpeg);">
+      <div class="banner-wrap">
+        <div class="container">
+          <div class="banner-text__wrap">
+            <div class="banner-text">
+              <h2>  Микрофон. Наушники. Звук. Поехали!</h2>
+                <p>Радио – моя самая большая мечта в жизни. Ну, во-первых, потому что я люблю разговаривать. Можно было бы говорить без остановки часами, не сомневайтесь, я бы говорила. Во-вторых, для меня это какая-то необъяснимая магия передачи звука. Хотя, конечно, в теории я знаю, как работают радиоволны (спасибо, Дарья Геннадьевна).</p>
+                <p>И вот однажды мне выпало счастье поучиться в школе радио. Я была на седьмом небе от счастья. Однако по окончанию обучения оказалось, что под формат местной радиостанции, «За облаками», мой голос с врожденной хрипотцой не подходит. Но этот опыт самый яркий и душераздирающий за все четыре курса. Уроки по речи понадобились мне еще не раз в абсолютно разных сферах моей жизни.</p>
+            </div>
+          </div>
+          <div class="banner-icon"><img src="../assets/img/microphone.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="main-work main-work-video">
+      <div class="container">
+        <div class="main-work-sl" style="display: flex;justify-content: center;align-items: center;">
+          <div>
+            <audio
+                controls
+                src="../assets/audio/3.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+          </div>
+          <div>
+            <audio
+                controls
+                src="../assets/audio/2.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+          </div>
+          <div>
+            <audio
+                controls
+                src="../assets/audio/1.wav">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="row">
+          <div class="footer-year">
+            2020 год
+          </div>
+          <div class="footer-name">
+             Стрекозова Юлия Юрьевна
+          </div>
+          <div class="footer-soc">
+            <a href="https://vk.com/i_am_juliya"><img src="../assets/img/vk.png" alt=""></a>
+            <a href="https://www.instagram.com/jstrekozova/?igshid=1li8hh57a6a6l"><img src="../assets/img/instagram.png" alt=""></a>
+          </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.main-work-sl').slick();
+        $('.slick-next').text(">");
+        $('.slick-prev').text("<");
+      });
+    </script>
+  </body>
+</html>

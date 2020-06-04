@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Разное</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <li><a href="/creativeDossier/index.html">Главная</a></li>
+        <li><a href="/creativeDossier/page/video.html">Видео</a></li>
+        <li><a href="/creativeDossier/page/text.html">Тексты</a></li>
+        <li><a href="/creativeDossier/page/radio.html">Радио</a></li>
+        <li><a href="/creativeDossier/page/all.html">Разное</a></li>
+      </ul>
+    </nav>
+    <div class="banner" style="  background-image: url(../assets/img/all.jpg);">
+      <div class="banner-wrap">
+        <div class="container">
+          <div class="banner-text__wrap">
+            <div class="banner-text">
+              <h2>Студенчество – это не про учебу!</h2>
+                <p>Извините, любимые преподаватели, но лекции и практические занятия – это не то, что останется в нашем сердце на всю жизнь. А вот форумы, фестивали, квартирники и задания, в основе которых, в первую очередь, стоит творчество – будут жить с нами всегда.</p>
+                <p>Байкал, Утро, Инфорум, Зефир, Вместе Медиа и Тема, стихи и песни на парах у Т.О. Фроловой, ДЯФ, лонгриды с Д.Г. Ильиных и работа в Индизайне с А.В. Павлюкевич, бизнес и контент планы с Е.В. Катайцевым, художественный музей с О.В. Пирожковой, поездка на Велес с Е.Г. Резниченко. То, что будет греть наши души. Именно благодаря этому мы те самые творческие единицы.</p>
+            </div>
+          </div>
+          <div class="banner-icon"><img src="../assets/img/jigsaw.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="main-work main-work-video">
+      <div class="container">
+        <div class="main-work-sl" style="display: flex;justify-content: center;align-items: center;">
+          <div>
+            <div class="textSLL">
+              Форум утро 2018
+            </div>
+            <img src="../assets/img/slide1.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              Форум Байкал 2018
+            </div>
+            <img src="../assets/img/slide2.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              ДЯФ 2019
+            </div>
+            <img src="../assets/img/slide3.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              Посвящение 2019
+            </div>
+            <img src="../assets/img/slide4.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+             ДЯФ 2018
+            </div>
+            <img src="../assets/img/slide5.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+             ДЯФ 2017
+            </div>
+            <img src="../assets/img/slide6.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              Поездка на Велес 2016
+            </div>
+            <img src="../assets/img/slide7.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              Форум Вместе Медиа 2018
+            </div>
+            <img src="../assets/img/slide8.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              Универсия 2017
+            </div>
+            <img src="../assets/img/slide9.jpg" alt="">
+          </div>
+          <div>
+            <div class="textSLL">
+              ДЯФ 2018
+            </div>
+            <img src="../assets/img/slide10.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="row">
+          <div class="footer-year">
+            2020 год
+          </div>
+          <div class="footer-name">
+             Стрекозова Юлия Юрьевна
+          </div>
+          <div class="footer-soc">
+            <a href="https://vk.com/i_am_juliya"><img src="../assets/img/vk.png" alt=""></a>
+            <a href="https://www.instagram.com/jstrekozova/?igshid=1li8hh57a6a6l"><img src="../assets/img/instagram.png" alt=""></a>
+          </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.main-work-sl').slick({
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true
+        });
+        $('.slick-next').text(">");
+        $('.slick-prev').text("<");
+      });
+    </script>
+  </body>
+</html>
