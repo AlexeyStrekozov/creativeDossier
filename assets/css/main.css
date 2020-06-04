@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  overflow-x: hidden;
+}
 .container {
   width: 70%;
   margin: 0 auto;
@@ -85,4 +88,18 @@ nav {
 }
 .banner-text__wrap {
   padding-top: 100px;
+}
+.main-work-video {
+  padding: 144px;
+}
+.slick-arrow {
+  display: block;
+  background-color: #ebe0f1;
+  border: 0;
+  padding: 10px 15px;
+  margin: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 800;
 }
